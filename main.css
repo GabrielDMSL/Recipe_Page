@@ -1,0 +1,128 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    width: 480px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+img{
+    width: 420px;
+    display: flex;
+    margin-top: 15px;
+    border-radius: 5%;
+    
+}
+
+.receita{
+    padding-inline: 25px;
+}
+
+h1{
+    font-size: 24px;
+    color: #302d2c;
+}
+p{
+    color: #5f574e;
+    font-size: 12px;
+}
+
+.preparation-time{
+    background-color: #fff7fc;
+    align-content: center;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+h3{
+    color: #7b284f;
+    text-indent: 1em;
+    margin-bottom: 10px;
+    
+}
+
+.preparation-time-info{
+    line-height: 2.0em;
+    margin-top: 0;
+    color: #5f574e;
+}
+
+h2{
+    font-size: 22px;
+    color: #874535;
+    padding-bottom: 0px;
+}
+
+.ingrediente{
+    margin-bottom: 0px;
+}
+.ingredientes-li{
+    font-size: 12px;
+    line-height: 2.0em;
+    padding-left: 20px;
+}
+
+.instructions{
+    margin-bottom: 0px;
+}
+
+.instructions-li{
+    font-size: 12px;
+    color: #5f574e;
+    padding-left: 15px;
+    line-height: 2.0em;
+}
+
+.nutrition{
+    margin-bottom: 0px;
+}
+
+.nutrition-p{
+    margin-bottom: 15px;
+}
+
+.tabela{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.tabela td {
+    padding: 6px 150px;
+    padding-inline-start: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    color: #333;
+    
+}
+
+.tabela td:first-child {
+    text-align: left;
+}
+
+.tabela td:last-child {
+    text-align: left;
+}
+
+.highlight{
+    font-weight: bolder;
+    color: #874535;
+}
